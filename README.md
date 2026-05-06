@@ -1,4 +1,4 @@
-# MyEdSpace US Homepage — Growth Marketer Assessment
+# MyEdSpace US Landing Page — Growth Marketer Assessment
 
 ## Goal
 
@@ -64,7 +64,7 @@ We **are** evaluating:
 - **Prompting quality** — how you decompose the work, what context you give the agent, how you correct it
 - **Critical reading of the brief** — does it have errors? Gaps? Did you catch them?
 - **Conversion thinking** — every decision defensible from a CRO standpoint
-- **Growth psychology application** — the ten principles visible on the page, not just listed
+- **Growth psychology application** — use principles from (https://growth.design/) visibly on the page, not just listed
 - **Self-checkout completeness** — a parent can convert without talking to anyone
 - **Polish & taste** — feels professional, not AI-generated
 
