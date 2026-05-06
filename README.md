@@ -10,7 +10,7 @@ A growth marketer who can:
 
 - Read a brief critically and spot what's missing or wrong
 - Translate growth psychology into concrete page decisions
-- Drive Claude Code to ship production output
+- Drive your best LLM to ship production output
 - Sanity-check and iterate on what the agent gives you
 - Hold the line on conversion thinking when the AI gets distracted
 
@@ -23,16 +23,14 @@ A US-market landing page for MyEdSpace, an online live-class math tutoring platf
 ## Must-read before you start
 
 - **`BRIEF.md`** — product brief, copy, brand tokens, must-haves
-- **`docs/GROWTH_PRINCIPLES.md`** — ten growth psychology principles mapped to specific page implementations
-- **`docs/WIREFRAME.md`** — page structure and section order from the design team
-- **`CLAUDE.md`** — project context auto-loaded by Claude Code
+- **`BRAND_GUIDELINES.md`** — visual brand standards (colors, typography, design style)
 
 ## How to ship
 
 1. Clone the repo
 2. Run `npm i` to install dependencies before doing anything else
-3. Read everything in `BRIEF.md`, `docs/`, and `CLAUDE.md` before touching code
-4. Open Claude Code in the repo root: `claude` — and use the **best LLM you have access to** (Claude Opus, GPT-5 Pro, etc.). This is a test of taste and judgment under the best tools available; don't handicap yourself with a smaller model.
+3. Read `BRIEF.md` before touching code
+4. Use the **best LLM you have access to** (Claude Opus, GPT-5 Pro, etc.). This is a test of taste and judgment under the best tools available; don't handicap yourself with a smaller model.
 5. Build the landing page in `app/page.tsx`
 6. Push your work to a new branch and send us the link
 
@@ -59,7 +57,7 @@ You shouldn't need to install anything else, though you're free to.
 
 ## What we're evaluating
 
-We are **not** evaluating whether you wrote the code yourself. Use Claude Code freely.
+We are **not** evaluating whether you wrote the code yourself. Use your best LLM freely.
 
 We **are** evaluating:
 
@@ -75,7 +73,7 @@ We **are** evaluating:
 In your PR or a `NOTES.md` file at root, briefly cover:
 
 1. Anything in the brief you'd push back on or change
-2. Three or four prompts you sent to Claude Code that meaningfully shaped the output
+2. Three or four prompts you sent that meaningfully shaped the output
 3. The single biggest conversion lever you implemented and why
 4. What you'd ship next if you had another day
 

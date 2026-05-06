@@ -10,20 +10,28 @@ US parents of children aged 11–17 whose math grades are slipping. They are pri
 
 ## Brand
 
+Visual standards live in `BRAND_GUIDELINES.md` — apply them across all UI. Summary below.
+
 ### Voice
 
 Confident, warm, specific. Not edu-jargon. Not chirpy SaaS. We talk to parents the way a great teacher talks at parents' evening — direct, kind, informed.
 
 ### Colors
 
-- Primary blue: `#3333FF`
-- Lime green CTA: `#8BC400`
-- Amber accent: `#E8A020`
-- Dark text: `#1A1A2A`
+- Main blue: `#3533ff`
+- CTA green: `#b1db00`
+- Light blue: `#a3e1f0`
+- Dark blue: `#101626`
 
 ### Font
 
-Inter (already wired in `app/layout.tsx`)
+Inter, everywhere (already wired in `app/layout.tsx`).
+
+### Design style
+
+- No rounded edges (`border-radius: 0` on everything)
+- No drop shadows (no `box-shadow`, no `filter: drop-shadow(...)`)
+- No glow effects
 
 ## Must-include copy
 
