@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "MyEdSpace — Live online math classes for US students",
   description:
     "Live math classes twice a week in your timezone. Taught by a UCLA math grad with a perfect SAT score. Try it for $7.",
+  icons: {
+    icon: "/assets/img/favicon.webp",
+  },
 };
 
 export default function RootLayout({
