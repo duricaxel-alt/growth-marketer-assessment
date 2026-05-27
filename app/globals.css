@@ -2,9 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   background: #ffffff;
   color: #101626;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar for mobile review carousel (FIX A4). */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
